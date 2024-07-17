@@ -8,6 +8,8 @@ A GitHub repository template for Python projects, which includes configuration f
 - `isort`_
 - `Hound`_
 
+This template assumes you will use `Poetry`_ for managing your dependencies, so includes configuration in `pyproject.toml` for Poetry and `poetry.toml` that configures virtualenvs to be created in the project directory. 
+
 isort and flake8 are configured to be compatible with Black formatting standards.
 
 The ``.gitignore`` is configured for Python, based on the ``.gitignore`` `template on GitHub <https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore>`__, plus additional rules ignoring VS Code and IntelliJ IDEA project-specific configuration directories.
@@ -18,7 +20,6 @@ Things for you to do
 --------------------
 
 - Edit **this document**, so it describes your project, and not this template.
-- Edit ``requirements.txt``, where you should detail the package requirements for your project.
 
 License
 -------
@@ -48,8 +49,8 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
 
-.. _PEP 517: https://peps.python.org/pep-0517/
 .. _Black: https://black.readthedocs.io/en/stable/
 .. _Flake8: https://flake8.pycqa.org
 .. _isort: https://pycqa.github.io/isort/
 .. _Hound: https://www.houndci.com
+.. _Python: https://python-poetry.org/
